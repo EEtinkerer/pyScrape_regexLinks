@@ -60,26 +60,6 @@ python linkregex.py -i urls.txt -o patterns.txt --unix
 | `--skiponerror` | Skip bad inputs |
 | `--stoponerror` | Stop on first error |
 
----
-
-## GitHub Setup
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-```
-
-Then create a GitHub repository and run:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/linkregex.git
-git push -u origin main
-```
-
----
-
 ## License
 
 MIT
